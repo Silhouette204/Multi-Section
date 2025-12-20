@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/projects.css">
+  <link rel="stylesheet" href="./css/about.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Multi_Websection</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="container flex">
+    <a href="#" class="Logo">Logo </a>
+
+      <!-- Hamburger Button -->
+      <div class="hamburger" id="hamburger">
+     <i class="fa fa-bars" id="icon-bars"></i>
+  <i class="fa fa-times" id="icon-close"></i>
+      </div>
+
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+<section class="projects-head bg-primary py-3">
+  <div class="container grid">
+    <div>
+      <h1 class="xl">Project Documentation</h1>
+      <p class="lead">Learn how to work with the LOGO platform</p>
+    </div>
+ <img src="./img/docs.png" alt="">
+  </div>
+</section>
+
+<!--Project Documentation-->
+
+<section class="docs-main my-4">
+  <div class="container grid">
+    <div class="card bg-extra p-3">
+      <h3 class="my-2">Essentials</h3>
+        <nav>
+          <ul class="doc-contents">
+          <li><a class="text-primary" href="#">Introduction</a></li>
+          <li><a href="#">About Logo Website</a></li>
+          <li><a href="#">Installation</a></li>
+        </ul>
+      </nav>
+
+       <h3 class="my-2">Deployments</h3>
+        <nav>
+        <ul class="doc-contents">
+          <li><a href="#">Setting up a container</a></li>
+          <li><a href="#">Using a CLI</a></li>
+          <li><a href="#">Managing Resources</a></li>
+             <li><a href="#">Upgrade and Downgrade</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="card">
+      <h2>Introduction</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, quisquam tenetur ex blanditiis asperiores placeat ut cumque ipsum inventore dignissimos corporis tempore sunt a. Id expedita necessitatibus quos iste quae.</p>
+
+      <div class="alert alert-success">
+        <i class="fas fa-info"></i>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut.
+      </div>
+
+      <h3>
+        Lorem, ipsum dolor.
+      </h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sed consectetur ex illum illo tenetur facilis praesentium quisquam nihil officiis.</p>
+      <a href="#" class="btn btn-primary">Install CLI</a>
+
+      <h3>Requirements</h3>
+      <ul>
+        <li>Windows 10, Mac OSX, Linux</li>
+        <li>Node.js V12 or higher</li>
+      </ul>
+
+      <h3>Install</h3>
+      <p>Mac (Homebrew)</p>
+      <pre><code>$ brew install LOGO-CLI</code></pre>
+
+            <p>NPM</p>
+      <pre><code>$ npm install LOGO-CLI</code></pre>
+
+            <p>Yarn</p>
+      <pre><code>$ yarn install LOGO-CLI</code></pre>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer bg-extra py-5">
+  <div class="container grid grid-3">
+    <div>
+        <h1>LOGO</h1>
+          <p>Copyright &copy; 2025</p>
+    </div>
+    <nav>
+      <ul class="footer-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="socials">
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="#"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
